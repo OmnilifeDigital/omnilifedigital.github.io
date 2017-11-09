@@ -2162,14 +2162,13 @@ datosempresario{
   height:auto;
   }
 
-.omnipass {
-  }
 .videox {
   margin-left:4%!important;
   padding:0;
   } 
 #concursos-bonos-historial {
   margin-top:50px;
+    width: 100%;
   }
 .panel-compras {
   min-height:504px;
@@ -4878,4 +4877,9 @@ a.h__logo > img {
     margin: 0 auto 14px auto;
   }
   .bgbckgrnd.col-md-12 { display: none; }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .is-mobile { display: none; }
 }
