@@ -2484,7 +2484,7 @@ datosempresario{
 .navbar-default {
   display:block!important;
   position:relative;
-  background: #F4F4F4 url('images/headbcks.jpg');
+  background: #F4F4F4;
   background-repeat:repeat-x;
   background-position:0 10%;
   border-bottom:1px solid #EEEEEE;
@@ -2520,7 +2520,7 @@ datosempresario{
 .navbar-fixed-top{
   display:block!important;
   position:relative;
-  background: #F4F4F4 url('images/headbcks.jpg');
+  background: #F4F4F4;
   background-repeat:repeat-x;
   background-position:0 30%;
   border-bottom:4px solid #FFFFFF;
@@ -2711,7 +2711,7 @@ ul.nav.navbar-nav.navbar-right.text-uppercase.text-center{
 .sub-menu li a span.escuchanos-en-vivo    { background-position: -360px -240px; }
 
 .bandera {
-  background-image: url("images/paises-sprite.png");
+  /*background-image: url("images/paises-sprite.png");*/
   background-position:0 0;
   background-repeat: no-repeat;
   height: 17px;
@@ -4388,7 +4388,7 @@ float:left;
 .navbar-fixed-top{
   display:inline-block!important;
   width:100%;
-  background: #F4F4F4 url('images/headbcks.jpg');
+  background: #F4F4F4;
   background-repeat:repeat-x;
   background-position:80% 40%;
   }
