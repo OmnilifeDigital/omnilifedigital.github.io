@@ -600,8 +600,9 @@ a.z-btn--sponsorInfo {
 a.z-btn--sponsorInfo:hover, 
 a.z-btn--sponsorInfo:focus,
 a.z-btn--sponsorInfo:active {
-  background-color: #333;
+  background-color: #792282;
   color: #fff;
+  border-color: transparent;
   -webkit-transition: .5s all ease-in;
   -moz-transition: .5s all ease-in;
   -o-transition: .5s all ease-in;
@@ -4847,5 +4848,34 @@ a.h__logo > img {
       margin-left: 0;
       display: block;
   }
+}
 
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .c-btn-uploadimage {
+    right: 105px;
+  }
+  .z-profile--info, .z-profile--level { text-align: center;}
+  .btn--editInfo { margin-top: 9px; }
+  p.distributor--socialmedia a {
+    margin-top: 1rem;
+  }
+  p.distributor--address {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .z-profile--level .material-icons { left: 90px; }
+
+  .z-profile--level { width: 100%; }
+
+  article.z-shortcuts {
+    margin-top: 3rem;
+  }
+  div.col-xs-12 {
+    width: 100%;
+  }
+  .style_levels {
+    margin: 10px;
+    margin: 0 auto 14px auto;
+  }
+  .bgbckgrnd.col-md-12 { display: none; }
 }
