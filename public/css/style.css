@@ -308,15 +308,18 @@ ul.dropdown--list li > a:hover {
 
 /* Profile Section */ 
 .l-profile--container {
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 2rem 0;
   margin: 1rem 0 0 0;
   border: 1px solid rgba(158,158,158,.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
 }
 
 .z-profile--image img {
   width: 150px;
   height: 150px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+  border-radius: 50%;
 } 
 
 .z-profile--info, 
@@ -324,12 +327,27 @@ ul.dropdown--list li > a:hover {
   float: none;
   display: inline-block;
   vertical-align: middle;
-  margin: 4rem 0;
 }
 
 .z-profile--level {
   padding: 0;
   margin: 2rem 0 0 0;
+}
+
+p.distributor--socialmedia a {
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p.distributor--address {
+  font-size: 12px;
+  width: 80%;
+}
+
+p.distributor--socialmedia a i {
+  font-size: 24px;
+  margin: .5rem 6px;
 }
 
 .z-distributor--mail strong {
@@ -352,6 +370,19 @@ ul.dropdown--list li > a:hover {
   left: -18px;
 }
 
+.z-profile--image {
+    margin-top: 2rem;
+}
+
+.btn--editInfo {
+  border-radius: 0;
+  padding: 0 10px;
+  border-color: #333;
+  color: #333;
+  margin: 0 10px;
+  margin-top: -4px;
+}
+
 .z-profile--level .distributor--level {
   font-weight: bold;
   font-size: 18px;
@@ -359,14 +390,14 @@ ul.dropdown--list li > a:hover {
 }
 
 .z-profile--info__name { 
-  font-size:22px; 
+  font-size:25px; 
   color:#333;
   text-transform:capitalize; 
   font-family: 'Fjalla One', sans-serif;
 }
 
 .z-profile--info .distributor--item {
-  font-size: 16px;
+  font-size: 14px;
   color:#333;
   font-family: 'Questrial', sans-serif;
 }
@@ -552,16 +583,18 @@ span.glyphicon.glyphicon-envelope {
 
 a.z-btn--sponsorInfo {
   border-radius: 0;
-  padding: 1rem 1.5rem;
+  padding: .25rem 1.5rem;
   color: #333333;
-  background: transparent;
-  border: 1px solid #333;
+  background: #fff;
+  font-size: 12px;
+  border: 1px solid rgba(198,198,198,.4);
   -webkit-transition: .5s all ease-in;
   -moz-transition: .5s all ease-in;
   -o-transition: .5s all ease-in;
   transition: .5s all ease-in;
   font-family: 'Questrial', sans-serif;
-
+  width: 100%;
+  margin-top: 1rem;
 }
 
 a.z-btn--sponsorInfo:hover, 
@@ -598,7 +631,7 @@ button.btn.z-btn--joinNewUser:active {
   float: left;
   display: inline-block;
   vertical-align: middle;
-  margin: 4rem 1% 0 1%;
+  margin: 0 1% 2rem 1%;
   width: 30%;
 }
 
@@ -713,7 +746,7 @@ button.btn.z-btn--joinNewUser:active {
 }
 
 .z-documents {
-  margin: 4rem auto;
+  margin: 2rem auto;
   padding: 1rem 0;
 }
 
@@ -858,17 +891,38 @@ button.btn.z-btn--joinNewUser:active {
 }
 
 /* End of Themes */ 
+.c-travel--download,
+.c-btn--cresiendo,
+.c-btn--cresiendo button {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c-travel--download,
+.c-btn--cresiendo {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+
+.c-btn--cresiendo {
+  margin-bottom: 3rem;
+}
+
 .c-btn-uploadimage {
   display: block;
-  padding: .5rem 1.3rem;
+  padding: 0;
   border-radius: 0;
   margin: 2rem auto;
-  background: #fff;
+  background: #000;
   font-weight: normal !important;
   font-size: 11px !important;
-  color: #444;
-  width: 100%;
-  font-size: 10px !important;
+  color: #fff;
+  width: 30px;
+  position: absolute;
+  top: -16px;
+  right: 27px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 19px !important;
   border: 1px solid #444;
   -webkit-transition: .5s all ease-in;
   -moz-transition: .5s all ease-in;
@@ -905,7 +959,7 @@ a.c-accesibility {
 h3.title-zone {
   font-size: 2.5rem;
   color: #444;
-  margin: 6rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
   font-size: 1.8rem;
   font-family: 'Fjalla One', sans-serif;
 }
@@ -1975,7 +2029,7 @@ datosempresario{
   
   }
 .nametools {
-  margin:20px 0 30px 0;
+  margin:20px 0 0 0;
   }
 .containerxs {
   width:100%;
