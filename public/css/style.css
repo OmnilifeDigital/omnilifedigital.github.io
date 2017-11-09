@@ -4851,7 +4851,7 @@ a.h__logo > img {
 
 @media all and (min-width: 320px) and (max-width: 480px) {
   .c-btn-uploadimage {
-    right: 105px;
+    right: 92px;
   }
   .z-profile--info, .z-profile--level { text-align: center;}
   .btn--editInfo { margin-top: 9px; }
@@ -4862,7 +4862,7 @@ a.h__logo > img {
     width: 75%;
     margin: 0 auto;
   }
-  .z-profile--level .material-icons { left: 90px; }
+  .z-profile--level .material-icons { left: 60px; }
 
   .z-profile--level { width: 100%; }
 
