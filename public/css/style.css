@@ -4965,4 +4965,8 @@ a.h__logo > img {
   }
   .is-mobile { display: none; }
   .c-btn--cresiendo, .c-travel--download { display: none;}
+  .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
