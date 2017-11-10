@@ -4933,10 +4933,13 @@ a.h__logo > img {
     right: 92px;
   }
   .z-profile--info, .z-profile--level { text-align: center;}
-  .btn--editInfo { margin-top: 9px; }
+  .btn--editInfo { margin: 9px auto; }
   p.distributor--socialmedia a {
     margin-top: 1rem;
   }
+  a.z-btn--sponsorInfo { padding: 1.25rem 1.5rem; }
+  .z-shortcuts ul li { width: 50%; height: 8rem; }
+  .z-shortcuts ul li a span { font-size: 13px; line-height: 16px;}
   p.distributor--address {
     width: 75%;
     margin: 0 auto;
