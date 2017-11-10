@@ -318,6 +318,9 @@ ul.dropdown--list li > a:hover {
 .z-profile--image {
     margin-top: 2rem;
     position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 2rem auto 0 auto;
 }
 
 .z-profile--image img {
@@ -999,7 +1002,7 @@ button.btn.z-btn--joinNewUser:active {
   width: 30px;
   position: absolute;
   top: -16px;
-  right: 27px;
+  right: 10px;
   height: 30px;
   border-radius: 50%;
   font-size: 19px !important;
@@ -4929,9 +4932,6 @@ a.h__logo > img {
 }
 
 @media all and (min-width: 320px) and (max-width: 480px) {
-  .c-btn-uploadimage {
-    right: 92px;
-  }
   .z-profile--info, .z-profile--level { text-align: center;}
   .btn--editInfo { margin: 9px auto; }
   p.distributor--socialmedia a {
