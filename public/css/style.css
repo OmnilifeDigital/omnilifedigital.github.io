@@ -416,7 +416,9 @@ p.distributor--socialmedia a:active {
 
 .btn--editInfo:hover,
 .btn--editInfo:active,
-.btn--editInfo:focus {
+.btn--editInfo:focus,
+.btn--editInfo:active:focus,
+.btn--editInfo:active:hover {
   background-color: #792282;
   color: #fff;
   border-color: transparent;
@@ -682,6 +684,8 @@ a.z-btn--sponsorInfo {
 a.z-btn--sponsorInfo:hover, 
 a.z-btn--sponsorInfo:focus,
 a.z-btn--sponsorInfo:active,
+a.z-btn--sponsorInfo:active:hover,
+a.z-btn--sponsorInfo:active:focus,
 .modal-body button:hover,
 .modal-body button:active,
 .modal-body button:focus {
