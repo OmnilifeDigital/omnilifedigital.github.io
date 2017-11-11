@@ -41,6 +41,9 @@ ul.dropdown--list {
   padding: 0;
 }
 
+.style_levels{ float:left;display:block;margin-bottom:14px;height:170px; }
+.style_levels span{display:block;clear:both;}
+
 figure.z-contest--item {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -714,8 +717,8 @@ button.btn.z-btn--joinNewUser:active {
   float: left;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 1% 2rem 1%;
-  width: 30%;
+  margin-bottom: 2rem;
+  width: 33.333333%;
 }
 
 
@@ -975,15 +978,18 @@ button.btn.z-btn--joinNewUser:active {
 
 /* End of Themes */ 
 .c-travel--download,
-.c-btn--cresiendo,
-.c-btn--cresiendo button {
-  padding-left: 0;
-  padding-right: 0;
+.c-btn--cresiendo {
+  margin-top: 20px;
 }
 
-.c-travel--download,
-.c-btn--cresiendo {
+.c-travel--download img,
+.c-btn--cresiendo img {
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+
+.c-btn--cresiendo button {
+  padding: 0;
+  border: 0;
 }
 
 .c-btn--cresiendo {
