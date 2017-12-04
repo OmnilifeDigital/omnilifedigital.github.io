@@ -162,29 +162,151 @@
 
 <div class="container">
   <div class="row">
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-    <table id="myTable">
-      <tr class="header">
-        <th style="width:60%;">Name</th>
-        <th style="width:40%;">Country</th>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Germany</td>
-      </tr>
-      <tr>
-        <td>Berglunds snabbkop</td>
-        <td>Sweden</td>
-      </tr>
-      <tr>
-        <td>Island Trading</td>
-        <td>UK</td>
-      </tr>
-      <tr>
-        <td>Koniglich Essen</td>
-        <td>Germany</td>
-      </tr>
-    </table>
+    <div class="col-md-12">
+      <div class="table-route">
+        <input type="text" id="searchRoute" onkeyup="searchRoute()" placeholder="Escribe el lugar donde deseas ver la fecha de la ruta móvil">
+        <table id="tableRoutes" class="table table-striped">
+          <tr class="header">
+            <th class="bg-primary">No. de Ruta</th>
+            <th class="bg-primary">Localidad</th>
+            <th class="bg-primary">Fechas</th>
+            <th class="bg-primary">Ubicación</th>
+          </tr>
+          <tr>
+            <td>Ruta 1</td>
+            <td>Ciudad Guzmán, Jal.</td>
+            <td>30 de noviembre</td>
+            <td>Municipio Libre, Esq. Aztecas, Col. Centro, Antigua central de autobuses.</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Cd. Guzman, Jal.</td>
+            <td>1 de diciembre</td>
+            <td>Municipio Libre, Esq. Aztecas, Col. Centro, Antigua Central de Autobuses ( Horario de 8:00 am a 3:00 pm).</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Arandas, Jal.</td>
+            <td>2 de diciembree</td>
+            <td>Calle Corona s/n Esquina Torres Lopez Col. Santa Bárbara, a 2 cuadras del Hotel Santa Bárbara.</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Lagos de Moreno, Jal.</td>
+            <td>3 de diciembre</td>
+            <td>Av. Orozco Jiménez esquina con calle Zafiro, Col. Colinas de San Javier. Frente a Soriana. (Horario de 9:00 am a 4:00 pm).</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Dolores Hidalgo, Gto.</td>
+            <td>4 de diciembre</td>
+            <td> Av. Padre Miguel Hidalgo Fracc. La esperanza, a un costado del mega parque (Horario de 8:00 am a 3:00 pm).</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Jalpan de Serra, Qro.</td>
+            <td>5 de diciembre</td>
+            <td>Frente al Hotel Sierra Express (Horario de 8:00 am a 3:00 pm)</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Cd. Valles, SLP.</td>
+            <td>6 de diciembre</td>
+            <td>A un costado del Parque Guadiana, a espaldas de Chedraui.</td>
+          </tr>
+
+          <tr>
+            <td>Ruta 1</td>
+            <td>Río Verde, SLP.</td>
+            <td>7 y 8 de diciembre</td>
+            <td>Calle Insurgentes #425, Esquina con Calle Bravo. A lado de Súper Ortiz (Día 8 con horario de 8:00 am a 3:00 pm)</td>
+          </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>San Luis de la Paz, Gto.</td>
+          <td>9 de diciembre</td>
+          <td>Pensión CHEPE a un costado de la Coca Cola. (Horario de 9:00 am a 4:00 pm).</td>
+        </tr>
+
+         <tr>
+          <td>Ruta 1</td>
+          <td>San Juan del Río, Qro.</td>
+          <td>10 y 11 de diciembre</td>
+          <td>Río Moctezuma #82 esquina calle Ayutla, Col. San Cayetano (Día 16 con horario de 8:00 am a 3:00 pm ).</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Valle de Santiago, Gto.</td>
+          <td>12 y 13 de diciembre</td>
+          <td>Carr. Cortázar a un costado del tianguis y frente a la fabrica textilera. (Día 13 con horario de 8:00 am a 3:00 pm).</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Zacapu, Mich.</td>
+          <td>14 y 15 de diciembre</td>
+          <td>A espaldas de Aurrerá a un costado de GOL 2000, en el terreno donde se pone el circo.  (Día 15 con horario de 8:00 am a 3:00 pm)</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Zamora, Mich.</td>
+          <td>16 y 17 de diciembre</td>
+          <td>Av.Virrey de Almanza #649, Col. Las fuentes (Día 17 con horario de 9:00 am a 3:00 pm).</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Los Reyes, Mich.</td>
+          <td>18 de diciembre</td>
+          <td>A un Costado del Bachilleres, frente a la agencia Ford (Horario de 8:00 am a 3:00 pm).</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Sahuayo, Mich.</td>
+          <td>19 de diciembre</td>
+          <td>Estacionamiento Antiguo Gigante. (Horario de 8:00 am a 3:00 pm).</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>San Miguel el Alto, Jal.</td>
+          <td>20 de diciembre</td>
+          <td>Av. Morelos s/n, entre Vicente Guerrero y Juan Álvarez.</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Tepatitlán, Jal.</td>
+          <td>21 de diciembre</td>
+          <td>Estacionamiento Plaza Los Altos, a espaldas del Banco Inbursa, en la rampa de estacionamiento del ex Gigante. (Horario de 8:00 am a 3:00 pm)</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Manzanillo, Col.</td>
+          <td>22 de diciembre</td>
+          <td>Calle Islas filipinas esquina prolongación Av. Manzanillo, Fracc. Las Camelinas.</td>
+        </tr>
+
+        <tr>
+          <td>Ruta 1</td>
+          <td>Ciudad Guzmán, Jal.</td>
+          <td>23 de diciembre</td>
+          <td>Municipio Libre, Esq. Aztecas, Col. Centro, Antigua central de autobuses.</td>
+        </tr>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
 

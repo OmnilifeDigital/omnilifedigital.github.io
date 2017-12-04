@@ -1,9 +1,9 @@
 function myFunction() {
   // Declare variables 
   var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
+  input = document.getElementById("searchRoute");
   filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
+  table = document.getElementById("tableRoutes");
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
